@@ -1,0 +1,25 @@
+﻿@model restaurant_management.ViewModels.HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Explore the restaurant management system:</p>
+</div>
+
+<div class="list-group">
+    <a href="/Restaurant" class="list-group-item list-group-item-action">
+        Manage Restaurants
+    </a>
+    <a href="/Table" class="list-group-item list-group-item-action">
+        Manage Tables
+    </a>
+    <a href="/MenuItem" class="list-group-item list-group-item-action">
+        Manage Menu Items
+    </a>
+    <a href="/Reservation" class="list-group-item list-group-item-action">
+        Manage Reservations
+    </a>
+</div>
